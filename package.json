@@ -1,0 +1,27 @@
+{
+  "name": "Project_02",
+  "version": "1.0.0",
+  "description": "# Project:   Name coming soon...",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amorales944/Project_02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amorales944/Project_02/issues"
+  },
+  "homepage": "https://github.com/amorales944/Project_02#readme"
+}
