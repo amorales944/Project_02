@@ -27,18 +27,18 @@ Github: https://github.com/pwhynot
 Node.js, Express, Mysql, Sequelize, CSS3, HTML5,
 Firebase
 
-#MVP:
+## MVP:
 -Login Page
 -Individual Dashboard Pages for employees and employer
 -Ability to view and edit schedule(only employer can edit schedule)
 -Message board for employess to communicate with each other
 -Ability for employess to clock in and clock out
 
-#Stretch Goals:
+## Stretch Goals:
 Add a function that will send a email verification email to every  new user that signs up.
 Function that will calcuate employees pay by adding all their worked hours. 
 
-#Future Development:
+## Future Development:
 API to send verification email to users
 
-#Credits/Resources:
+## Credits/Resources:
