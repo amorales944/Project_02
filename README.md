@@ -25,7 +25,7 @@ Github: https://github.com/pwhynot
 
 # Techstack:
 Node.js, Express, Mysql, Sequelize, CSS3, HTML5,
-Firebase
+Firebase, Foundation Libray.
 
 ## MVP:
 -Login Page
