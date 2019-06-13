@@ -11,16 +11,24 @@ A site for employers and employees to login into to view, add and edit their wor
 
 # Developers
 Moises S. Eastland: Back-end Developer
-[Github:](https://github.com/MoisesEastalnd)
+- [Github](https://github.com/MoisesEastalnd)
+- [LinkedIn]()
+- [Profile]()
 
 Colton Porto: Front-end/Logic Developer  
-[Github:](https://github.com/csporto23)
+- [Github](https://github.com/csporto23)
+- [LinkedIn]()
+- [Profile]()
 
 Armando D. Morales: Front-end Developer 
-[Github:](https://github.com/amorales944) 
+- [Github](https://github.com/amorales944)
+- [LinkedIn]()
+- [Profile]()
 
 Patrick Whynot: Back-end Developer 
-[Github:](https://github.com/pwhynot)
+- [Github](https://github.com/pwhynot)
+- [LinkedIn]()
+- [Profile]()
 
 
 # Techstack:
