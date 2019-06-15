@@ -3,5 +3,12 @@ module.exports = function(sequelize, DataTypes) {
       text: DataTypes.STRING,
       description: DataTypes.TEXT
     });
+    
+    Schedule.associate = function(models) {
+        Schedule.hasMany(models.Post, {
+          onDelete: "cascade"
+        });
+      };
+    
     return Schedule;
   };
