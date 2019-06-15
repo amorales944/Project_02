@@ -3,19 +3,26 @@ var express = require("express");
 
 var app = express();
 //==========================================
+
+//establishing  a secure port ======
 var PORT = process.env.PORT || 8004;
+//==================================
 
-//var db = require ("./models");
+//establishing db as a variable to require model route==
+var db = require ("./models");
+//======================================================
 
-app.use(express.urlencoded({extend:true}));
+//set up express to handle data parsing====
+app.use(express.urlencoded({extend: true }));
 app.use(express.json());
+app.use(express.text());
 
-app.use(express.static("public"));
-
+//Static directory=====================
+app.use(express.static("app/public"));
+//====================================
 //Routes for api and html==================
-require("./app/routes/api-routes.js")(app);
-require("./routes/html-routes.js")(app);
-
+require("./app/routes/apiroutes.js")(app);
+require("./routes/htmlroutes.js")(app);
 require("./routes/post-api-routes.js")(app);
 //==========================================
 
