@@ -10,9 +10,7 @@ $(document).foundation();
 
 
 //firebase logic
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
+const config = {
     apiKey: "AIzaSyAJ847S3ORYsy2wh8MU3OWpZIy8hrIpuHc",
     authDomain: "project2-8baae.firebaseapp.com",
     databaseURL: "https://project2-8baae.firebaseio.com",
@@ -23,7 +21,7 @@ $(document).foundation();
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-</script>
+
 
 // Get a reference to the database service
 var database = firebase.database();
@@ -69,7 +67,7 @@ var user = firebase.auth().currentUser;
     
           if(textPassword.length > 7 && textEmail.length > 6){
            firebase.auth().signOut().then(function() {
-             window.open("../project1/login.html", '_self');
+             window.open("./sign_in.html", '_self');
            }).catch(function(error) {
              // An error happened.
            });
