@@ -21,11 +21,11 @@ app.use(express.json());
 app.use(express.text());
 
 //Static directory=====================
-app.use(express.static("app/public"));
+app.use(express.static("/public"));
 //====================================
 //Routes for api and html==================
 require("./routes/apiRoutes.js")(app);
-require("./routes/htmlRoutes.js")(app);
+//require("./routes/htmlRoutes.js")(app);
 //require("./routes/post-api-routes.js")(app);
 //==========================================
 

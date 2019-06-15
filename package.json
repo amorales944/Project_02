@@ -4,11 +4,13 @@
   "description": "# Project:   Name coming soon...",
   "main": "server.js",
   "dependencies": {
+    "bluebird": "^3.5.5",
     "express": "^4.17.1",
     "init": "^0.1.2",
     "mysql2": "^1.6.5",
     "node": "^12.4.0",
     "nodemon": "^1.19.1",
+    "pg-promise": "^8.7.2",
     "sequelize": "^5.8.9"
   },
   "devDependencies": {},

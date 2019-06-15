@@ -10,5 +10,7 @@ module.exports = function(app) {
         });
     });
 
-   // app.get("/api/")
+    app.get("/api/:id", function(req,res) {
+     
+    })
 };
