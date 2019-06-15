@@ -1,15 +1,21 @@
-var express = require("express");
+const express = require("express");
 
-var app = express();
+const app = express();
 
-var PORT = process.env.PORT || 8004;
+const PORT = process.env.PORT || 8080;
 
+const db = require("./models");
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-app.get("/", function(req,res){
-    res.send("testing route on PORT" + PORT);
-})
+app.use(express.static("public"));
 
-app.listen(PORT, function() {
-    console.log("app is listening on PORT" + PORT);
-})
+//require("./routes/apiRoutes")(app);
+
+db.sequelize.sync({ force: true }).then(function() {
+    app.listen(PORT, function() {
+      console.log("App listening on PORT " + PORT);
+    });
+  });
+  

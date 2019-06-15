@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "#Ladybird1987!",
-    "database": "database_development",
+    "database": "work_schedule",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
