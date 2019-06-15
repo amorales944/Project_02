@@ -1,7 +1,10 @@
 module.exports = function(sequelize, DataTypes) {
     var Schedule = sequelize.define("Schedule", {
-      text: DataTypes.STRING,
-      description: DataTypes.TEXT
+      name: DataTypes.STRING,
+      workDate: DataTypes.DATETIME,
+      startHour: DataTypes.DATETIME,
+      endHour: DataTypes.DATETIME
+        
     });
     
     Schedule.associate = function(models) {
