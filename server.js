@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 
 const app = express();
@@ -11,8 +12,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-//require("./routes/apiRoutes")(app);
-//srequire("./routes/htmlRoutes")(app);
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 db.sequelize.sync({ force: true }).then(function() {
     app.listen(PORT, function() {
