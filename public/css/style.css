@@ -183,15 +183,6 @@ form .form-icons {
     }
   }
   
-  @media screen and (max-width: 60em) {
-    .right-nav {
-      -ms-grid-row: 4;
-          grid-row-start: 4;
-      -ms-grid-column: 1;
-          grid-column-start: 1;
-      grid-column-end: 4;
-    }
-  }
   
   .holy-grail-footer {
     -ms-grid-column: 1;
@@ -199,7 +190,36 @@ form .form-icons {
     grid-column-end: 4;
   }
 
-  #homePage {
-    opacity: .8;
-  }
+#homePage {
+  text-align: center;
+}
   
+  #homeNav {
+    background-color: rgb(108, 153, 153);
+    border-color: #8860D0;
+    opacity: .9;
+  }
+
+  #grail-left {
+    background-color: #aaabb8;
+    border-color: ;
+    opacity: .78;
+  }
+
+ #grail-middle{
+  background-color: #aaabb8;
+  border-color: #8860D0;
+  opacity: .8;
+ }
+
+ #grail-right{
+  background-color: #aaabb8;
+  border-color: #8860D0;
+  opacity: .8;
+ }
+
+ #grail-footer{
+   background-color: rgb(66, 78, 85);
+   border-color: #8860D0;
+   opacity: .9;
+ }
