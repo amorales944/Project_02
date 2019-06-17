@@ -2,15 +2,10 @@
 
 
 
-//foundation logic
-$(document).foundation();
-
-
-
 
 
 //firebase logic
-const config = {
+const firebaseConfig = {
     apiKey: "AIzaSyAJ847S3ORYsy2wh8MU3OWpZIy8hrIpuHc",
     authDomain: "project2-8baae.firebaseapp.com",
     databaseURL: "https://project2-8baae.firebaseio.com",
@@ -94,6 +89,10 @@ var user = firebase.auth().currentUser;
         firebase.auth().signOut();
        });
 
+       $("#signInIndex").on("click", e =>  {
+        firebase.auth().signOut();
+       });
+
        //signs current user out then sends you to the member sign-in page
  $("#indexSignIn").on("click", function() {
     firebase.auth().signOut();
@@ -108,7 +107,7 @@ var user = firebase.auth().currentUser;
       
       firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
-          window.open("../project1/explore.html", '_self');
+          window.open("./home.html", '_self');
           // User is signed in.
         } else {
           // No user is signed in.
