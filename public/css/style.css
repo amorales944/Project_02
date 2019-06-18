@@ -169,6 +169,8 @@ form .form-icons {
 
 .table-expand {
   margin-top: 0;
+  position: relative;
+  display: block;
   
 }
 
@@ -389,7 +391,7 @@ img{ max-width:100%;}
   cursor: pointer;
   font-size: 17px;
   height: 33px;
-  position: absolute;
+  
   right: 0;
   top: 11px;
   width: 33px;
