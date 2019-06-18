@@ -11,13 +11,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
     <title>Home Page</title>
   </head>
   <body id="homePage">
       
+
+    <!-- NavBar -->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <img id="logo" src="../public/images/onTime.png" alt="" width="80px" height="80px">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img id="logo" src="../public/images/onTime.png" alt="" width="100px" height="100px">
+            <button class="navbar-toggler" id="collapseButton" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
@@ -25,7 +28,7 @@
                             <ul class="menu menu-hover-lines mt-2">
                                 <li class="active ml-4 mt-4"><a href="#">Home</a></li>
                                 <li><a class="mt-4 ml-4" href="#">Calendar </a></li>
-                                <li><a class="mt-4 ml-4" href="#">Message board</a></li>
+                                <li><a class="mt-4 ml-4" href="./messageBoard.html">Message board</a></li>
                                 <li><a class="mt-4 ml-4" href="#">Services</a></li>
                                 <li><a class="mt-4 ml-4" href="#">Request</a></li>
                                 <li><a class="mt-4 ml-4 mb-4" href="#">Settings</a></li>
@@ -44,12 +47,188 @@
                                 </div>
                               </li>
                         </ul>
-
           </nav>
       
-         
-          <ul style="list-style: none;">
-
+         <!-- Shifts -->
+         <div class="mt-4">
+          <div class="row">
+            <div class="col-3">
+              <h3>Upcoming Shifts</h3>
+              <table class="table-expand">
+                  <thead>
+                    <tr class="table-expand-row">
+                      <th width="200" class="text-center">Month</th>
+                      <th>Number Of Days</th>
+                      <th class="text-right" width="150">Total Hours</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-expand-row" data-open-details>
+                      <td>August</td>
+                      <td>2 days</td>
+                      <td class="text-right">16</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>July</td>
+                      <td>4 days</td>
+                      <td class="text-right">34</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>June</td>
+                      <td>1 day</td>
+                      <td class="text-right">12</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>May</td>
+                      <td>2 days</td>
+                      <td class="text-right">17</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>April</td>
+                      <td>1 day</td>
+                      <td class="text-right">8</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>March</td>
+                      <td>2 days</td>
+                      <td class="text-right">16</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>February</td>
+                      <td>2 days</td>
+                      <td class="text-right">16</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>January</td>
+                      <td>5 days</td>
+                      <td class="text-right">48</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                    <tr class="table-expand-row" data-open-details>
+                      <td>December</td>
+                      <td>2 days</td>
+                      <td class="text-right">16</td>
+                    </tr>
+                
+                    <tr class="table-expand-row-content">
+                      <td colspan="8" class="table-expand-row-nested">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+                      </td>
+                      </td>
+                    </tr>
+                
+                  </tbody>
+                </table>
+            </div>
+            <div class="col-8">
+             
+              <!-- comments -->
+<div class="comment-section-container">
+    <h3>Recent Messages</h3>
+    <div class="comment-section-author">
+      <img src="../public/images/avatar.png" width="50px" height="50px" alt="">
+      <div class="comment-section-name">
+        <h5><a href="">Janice Jones</a></h5>
+        <p>March 12, 2017 at 1:28pm</p>
+      </div>
+    </div>
+    <div class="comment-section-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis tenetur a voluptatibus quia
+        deserunt.
+      </p>
+    </div>
+    <div class="comment-section-author">
+      <img src="../public/images/avatar.png" width="50px" height="50px" alt="">
+      <div class="comment-section-name">
+        <h5><a href="">Janice Jones</a></h5>
+        <p>March 12, 2017 at 1:28pm</p>
+      </div>
+    </div>
+    <div class="comment-section-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis tenetur a voluptatibus quia deserunt.
+      </p>
+    </div>
+    <div class="comment-section-author">
+        <img src="../public/images/avatar.png" width="50px" height="50px" alt="">
+        <div class="comment-section-name">
+          <h5><a href="">Janice Jones</a></h5>
+          <p>March 12, 2017 at 1:28pm</p>
+        </div>
+      </div>
+      <div class="comment-section-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis tenetur a voluptatibus quia deserunt.
+        </p>
+      </div>
+  </div>
+  <!--/comments-->
+  <!--/comment box-->
+            </div>
+          </div>
+         </div>
+      
+            
 
 
             <!-- firebase links -->
