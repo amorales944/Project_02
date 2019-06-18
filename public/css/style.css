@@ -22,7 +22,7 @@ form .form-icons {
   }
   
 
-  body {
+  .signBody {
       
       background-image: url("../images/work.jpg");
       background-repeat: no-repeat;
@@ -222,4 +222,8 @@ form .form-icons {
    background-color: rgb(66, 78, 85);
    border-color: #8860D0;
    opacity: .9;
+ }
+
+ #warning, #warning2 {
+   color: red;
  }

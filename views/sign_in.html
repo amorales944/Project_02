@@ -13,7 +13,7 @@
 
     <title>Sign In</title>
   </head>
-  <body>
+  <body class="signBody">
         
         <div class="container">
                 <div class="translucent-form-overlay align-center" id="trans">
@@ -34,14 +34,14 @@
                             <span class="input-group-label">
                               <i class="fa fa-key"></i>
                             </span>
-                            <input class="input-group-field" id="inputPassword" type="text" placeholder="Password">
+                            <input class="input-group-field" id="inputPassWord" type="text" placeholder="Password">
                           </div>
                         </div>
-                        <div id="warning"></div>
+                        <div id="warning2"></div>
                       
-                        <button class="button expanded" id="indexSignUp">Sign In</button>
+                        <button class="button expanded" id="submitBtn">Sign In</button>
 
-                        <p class="form-registration-member-signin text-center text-primary" id="signInLink">Not a member? <a class="text-white" href="./sign.html">Sign Up</a></p>
+                        <p class="form-registration-member-signin text-center text-primary" id="signInLink">Not a member? <a class="text-white" id="signInIndex" href="./sign.html">Sign Up</a></p>
                         <p class="form-registration-terms text-center text-primary"><a href="https://app.termly.io/document/terms-of-use-for-website/f3a5b8fa-cc2a-4ec1-9625-41b892b437f4">Terms &amp; Conditions</a>|<a href="#">Privacy</a></p>
                       </form>
 
@@ -55,20 +55,26 @@
       
 
 
-            <!--foundation and javascript links -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
+            <!-- firebase links -->
+          <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+          
+          <!-- jquery links-->
+          <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
+
+          <!-- bootstrap links -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+          <!-- foundation links-->
             <script src="../public/js/app.js"></script>
             <script src="../public/framework/js/vendor/jquery.js"></script>
             <script src="../public/framework/js/vendor/foundation.js"></script>
             <script src="../public/framework/js/vendor/what-input.js"></script>
-            <!-- The core Firebase JS SDK is always required and must be listed first -->
-            <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
-            <script>
-                $(document).foundation();
-            </script>
+
 
 
   </body>
