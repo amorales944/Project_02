@@ -116,7 +116,7 @@ var user = firebase.auth().currentUser;
     
   });
 
-  //
+  //upcoming shifts expand
   $('[data-open-details]').click(function (e) {
     e.preventDefault();
     $(this).next().toggleClass('is-active');

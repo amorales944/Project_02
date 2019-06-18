@@ -129,8 +129,9 @@ form .form-icons {
 
   
 
-#homePage {
+#homePage, #messageBoard {
   text-align: center;
+  background-color: #747474
 }
   
  #warning, #warning2 {
@@ -162,18 +163,23 @@ form .form-icons {
 }
 
 
-
+.table-expand-row {
+  background-color: #8a8a8a;
+}
 
 .table-expand {
   margin-top: 0;
+  
 }
 
 .table-expand td {
   color: #8a8a8a;
+  background-color: #272727;
 }
 
 .table-expand tr {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #14A76C;
+  
 }
 
 .table-expand .text-right {
@@ -182,6 +188,7 @@ form .form-icons {
 
 .table-expand-row.is-active .expand-icon::after {
   content: '-';
+  
 }
 
 .table-expand-row .expand-icon::after {
@@ -191,6 +198,7 @@ form .form-icons {
 
 .table-expand-row-content {
   display: none;
+  background-color:#747474; 
 }
 
 .table-expand-row-content.is-active {
@@ -201,6 +209,8 @@ form .form-icons {
           animation-fill-mode: both;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
+
+          background-color:#747474; 
 }
 
 .table-expand-row-nested {
@@ -384,8 +394,20 @@ img{ max-width:100%;}
   top: 11px;
   width: 33px;
 }
-.messaging { padding: 0 0 50px 0;}
+.messaging { padding: 0 0 50px 0;
+background-color: white;
+}
 .msg_history {
   height: 516px;
   overflow-y: auto;
+}
+
+#upcomingShifts {
+  background-color:#FF652F;
+  margin-left: 14px;
+  color:#272727;
+}
+
+#homeMenu {
+  width:100%;
 }
