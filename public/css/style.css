@@ -76,11 +76,12 @@ form .form-icons {
     font-weight: 500;
     letter-spacing: 1px;
     transition: all 0.35s ease;
+    width: 60%;
   }
   
   .menu-hover-lines li a {
     padding: 0.75rem 0;
-    color: rgba(10, 10, 10, 0.5);
+    color: white;
     position: relative;
     margin-left: 1rem;
   }
@@ -115,7 +116,7 @@ form .form-icons {
   
   .menu-hover-lines a:hover,
   .menu-hover-lines li.active > a {
-    color: #0a0a0a;
+    color: white;
     transition: all 0.35s ease;
   }
   
@@ -127,78 +128,11 @@ form .form-icons {
   }
 
   
-  .holy-grail-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 3fr 1fr;
-        grid-template-columns: 1fr 3fr 1fr;
-    -ms-grid-rows: 1fr 8fr 1fr;
-        grid-template-rows: 1fr 8fr 1fr;
-    grid-gap: 20px;
-    height: 100vh;
-  }
-  
-  @media screen and (max-width: 60em) {
-    .holy-grail-grid {
-      -ms-grid-rows: 2fr 1fr 5fr 1fr;
-          grid-template-rows: 2fr 1fr 5fr 1fr;
-    }
-  }
-  
-  .holy-grail-header,
-  .holy-grail-left,
-  .holy-grail-middle,
-  .holy-grail-right,
-  .holy-grail-footer {
-    padding: 1rem;
-    border: 1px solid #ededed;
-    background-color: #ededed;
-  }
-  
-  .holy-grail-header {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    grid-column-end: 4;
-    -ms-grid-row: 1;
-        grid-row-start: 1;
-  }
-  
-  @media screen and (max-width: 60em) {
-    .holy-grail-left {
-      -ms-grid-row: 2;
-          grid-row-start: 2;
-      -ms-grid-column: 1;
-          grid-column-start: 1;
-      grid-column-end: 4;
-    }
-  }
-  
-  @media screen and (max-width: 60em) {
-    .holy-grail-middle {
-      -ms-grid-row: 3;
-          grid-row-start: 3;
-      -ms-grid-column: 1;
-          grid-column-start: 1;
-      grid-column-end: 4;
-    }
-  }
-  
-  
-  .holy-grail-footer {
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    grid-column-end: 4;
-  }
 
 #homePage {
   text-align: center;
 }
   
-  #homeNav {
-    background-color: rgb(108, 153, 153);
-    border-color: #8860D0;
-    opacity: .9;
-  }
 
   #grail-left {
     background-color: #aaabb8;
@@ -227,3 +161,21 @@ form .form-icons {
  #warning, #warning2 {
    color: red;
  }
+
+ .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.navbar{
+  background-color: palevioletred;
+}
+
+
+
+@media only screen and (max-width: 1026px) {
+  #logo {
+      display: none;
+  }
+}
