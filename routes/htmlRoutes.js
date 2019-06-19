@@ -1,11 +1,29 @@
-const db = require("../models");
+var path = require("path");
 
 module.exports = function(app) {
-    app.get("/", function(req, res){
-        db.Schedule.findAll({}).then(function(dbSchedule){
-            res.render("index", {
-                
-            })
-        })
-    })
-}
+
+  app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/home.html"));
+  });
+
+  app.get("/sign_in", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/sign_in.html"));
+  });
+
+  app.get("/sign", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/sign.html"));
+  });
+
+  app.get("/directMessage", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/directMessage.html"));
+  });
+
+  app.get("/messageBoard", function(req, res){
+    res.sendFile(path.join(__dirname, "../views/messageBoard.html"))
+  });
+
+  app.get("/calendar", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/calendar.html"))
+  });
+
+};
