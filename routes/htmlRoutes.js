@@ -26,4 +26,8 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/views/calendar.html"))
   });
 
+  app.get("/settings", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/views/settings.html"))
+  });
+
 };
