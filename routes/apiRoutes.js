@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //requiring db for models routes===
 var db = require("../models");
 //=================================
@@ -28,3 +29,15 @@ module.exports = function(app) {
       })  
     })
 };
+=======
+const db = require("../models");
+
+module.exports = function(app){
+    app.get("/api/users", function(req, res){
+        db.Users.findAll({}).then(function(dbUsers){
+            console.log(Users);
+            res.json(dbUsers);
+        })
+    })
+}
+>>>>>>> 6839aca6ae0c893b49aeb205854708f501be094c

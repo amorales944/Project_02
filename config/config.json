@@ -1,7 +1,11 @@
 {
   "development": {
     "username": "root",
+<<<<<<< HEAD
     "password": "root",
+=======
+    "password": "Cs343233!",
+>>>>>>> 6839aca6ae0c893b49aeb205854708f501be094c
     "database": "work_schedule",
     "host": "127.0.0.1",
     "dialect": "mysql"
@@ -15,11 +19,7 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
   }
 }
