@@ -62,7 +62,7 @@ var user = firebase.auth().currentUser;
     
           if(textPassword.length > 7 && textEmail.length > 6){
            firebase.auth().signOut().then(function() {
-             window.open("./sign_in.html", '_self');
+             window.open("/sign_in", '_self');
            }).catch(function(error) {
              // An error happened.
            });
@@ -107,7 +107,7 @@ var user = firebase.auth().currentUser;
       
       firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
-          window.open("./home.html", '_self');
+          window.open("/", '_self');
           // User is signed in.
         } else {
           // No user is signed in.
