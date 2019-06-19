@@ -10,7 +10,21 @@ module.exports = function(app) {
         });
     });
 
-    app.get("/api/:id", function(req,res) {
+    //app.get("/api/:id", function(req,res) {
      
+    //})
+
+    app.post("/api/employees", function(req,res){
+     db.work_schedule.create(req.body).then(function(dbwork_schedule) {
+         res.json(dbwork_schedule)
+     });   
+    });
+
+    app.delete("/api/employees/:id", function(req,res){
+      db.work_schedule.destroy({
+          where:{
+              id: req.params.id
+          }
+      })  
     })
 };
