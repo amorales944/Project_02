@@ -116,6 +116,39 @@ var user = firebase.auth().currentUser;
     
   });
 
+  $("#submitManager").on("click", function(event) {
+    const textEmail = $("#inputUserEmail").val();
+    const textPassword = $("#inputPassWord").val();
+    // Prevent form from submitting
+        event.preventDefault();
+      
+      firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+          window.open("/registration", '_self');
+          // User is signed in.
+        } else {
+          // No user is signed in.
+        }
+      });
+    
+  });
+
+  $("#submitManager").on("click", e => {
+    e.preventDefault();
+    const textEmail = $("#inputUserEmail").val();
+    const textPassword = $("#inputPassWord").val();
+    
+      // console.log(textPassword);
+    //  console.log(textEmail);
+        //firebase user authentication
+        const email = textEmail;
+        const password = textPassword;
+        const auth = firebase.auth();
+         // sign in
+         const promise = auth.signInWithEmailAndPassword(email, password);
+         promise.catch(e => $("#warning2").text(e.message));
+   });
+
   //upcoming shifts expand
   $('[data-open-details]').click(function (e) {
     e.preventDefault();
