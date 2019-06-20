@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-    <title>Home Page</title>
+    <title>Message Board</title>
   </head>
 
   <body id="messageBoard">
@@ -43,64 +43,60 @@
                               </li>
                         </ul>
           </nav>
+<div class="container">
+          <!-- comments -->
+          <div class="comment-section-container mt-4">
+            <h3>Message Board</h3>
+            <div class="comment-section-author">
+              <img src="/images/avatar.png" alt="Avatar" class="avatar mr-2">
+              <div class="comment-section-name">
+                <h5><a href="">Kevin</a></h5>
+                <p>March 12, 2017 at 1:28pm</p>
+              </div>
+            </div>
+            <div class="comment-section-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis tenetur a voluptatibus quia
+                deserunt.
+              </p>
+            </div>
+            <div class="comment-section-author">
+              <img src="/images/avatar.png" alt="Avatar" class="avatar mr-2">
+              <div class="comment-section-name">
+                <h5><a href="">Steven</a></h5>
+                <p>March 12, 2017 at 1:28pm</p>
+              </div>
+            </div>
+            <div class="comment-section-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facilis tenetur a voluptatibus quia deserunt.
+              </p>
+            </div>
+          </div>
+          <!--/comments-->
+          
+          <div class="container mt-4">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1"><h4>Name</h4></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+            
+              <div class="form-group mt-4">
+                <label for="exampleFormControlTextarea1"><h4>Message</h4></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="row mb-4">
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"> 
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-primary btn-lg float-right mr-3">Submit</button>
+            </div>
+          </div>
+</div>
 
-
-          <div class="container">
-                <h3 class=" text-center">Message Board</h3>
-                <div class="messaging">
-                      <div class="inbox_msg">
-                      
-                        <div class="mesgs">
-                          <div class="msg_history">
-                            <div class="incoming_msg">
-                              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                              <div class="received_msg">
-                                <div class="received_withd_msg">
-                                  <p>Test which is a new approach to have all
-                                    solutions</p>
-                                  <span class="time_date"> 11:01 AM    |    June 9</span></div>
-                              </div>
-                            </div>
-                            <div class="outgoing_msg">
-                              <div class="sent_msg">
-                                <p>Test which is a new approach to have all
-                                  solutions</p>
-                                <span class="time_date"> 11:01 AM    |    June 9</span> </div>
-                            </div>
-                            <div class="incoming_msg">
-                              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                              <div class="received_msg">
-                                <div class="received_withd_msg">
-                                  <p>Test, which is a new approach to have</p>
-                                  <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
-                              </div>
-                            </div>
-                            <div class="outgoing_msg">
-                              <div class="sent_msg">
-                                <p>Apollo University, Delhi, India Test</p>
-                                <span class="time_date"> 11:01 AM    |    Today</span> </div>
-                            </div>
-                            <div class="incoming_msg">
-                              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                              <div class="received_msg">
-                                <div class="received_withd_msg">
-                                  <p>We work directly with our designers and suppliers,
-                                    and sell direct to you, which means quality, exclusive
-                                    products, at a price anyone can afford.</p>
-                                  <span class="time_date"> 11:01 AM    |    Today</span></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="type_msg">
-                            <div class="input_msg_write">
-                              <input type="text" class="write_msg" placeholder="Type a message" />
-                              <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div></div>
 
 
   <!-- firebase links -->
@@ -123,5 +119,8 @@
               <script src="/framework/js/vendor/foundation.js"></script>
               <script src="/framework/js/vendor/what-input.js"></script>
 
+            </div>
 
   </body>
+
+  </html>
