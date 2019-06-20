@@ -107,7 +107,7 @@ var user = firebase.auth().currentUser;
       
       firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
-          window.open("/", '_self');
+          window.open("/home", '_self');
           // User is signed in.
         } else {
           // No user is signed in.
