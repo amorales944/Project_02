@@ -34,6 +34,8 @@ form .form-icons {
 
   #trans {
       margin-top: 50px;
+      border-radius: 15px;
+      
   }
 
 
@@ -140,6 +142,10 @@ form .form-icons {
    color: red;
  }
 
+ #messageConatiner{
+   border-radius: 15px;
+ }
+
  .avatar {
   width: 50px;
   height: 50px;
@@ -228,6 +234,7 @@ form .form-icons {
   margin-left: 14px;
   color:#272727;
   display:table;
+  border-radius: 10px;
 }
 
 #homeMenu {
@@ -238,6 +245,7 @@ form .form-icons {
 .comment-section-container {
   background-color: #fefefe;
   padding: 1rem;
+  border-radius: 15px;
 }
 
 .comment-section-author {
@@ -262,12 +270,14 @@ form .form-icons {
   overflow: hidden;
   width: 40%; border-right:1px solid #c4c4c4;
 }
+
 .inbox_msg {
   border: 1px solid #c4c4c4;
   clear: both;
   overflow: hidden;
   
 }
+
 .top_spac{ margin: 20px 0 0;}
 
 
@@ -284,7 +294,9 @@ form .form-icons {
   font-size: 21px;
   margin: auto;
 }
+
 .srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+
 .srch_bar .input-group-addon button {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: medium none;
@@ -292,6 +304,7 @@ form .form-icons {
   color: #707070;
   font-size: 18px;
 }
+
 .srch_bar .input-group-addon { margin: 0 0 0 -27px;}
 
 .chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
@@ -301,6 +314,7 @@ form .form-icons {
   float: left;
   width: 11%;
 }
+
 .chat_ib {
   float: left;
   padding: 0 0 0 15px;
@@ -313,6 +327,7 @@ form .form-icons {
   margin: 0;
   padding: 18px 16px 10px;
 }
+
 .inbox_chat { height: 550px; overflow-y: scroll;}
 
 .active_chat{ background:#ebebeb;}
@@ -321,12 +336,14 @@ form .form-icons {
   display: inline-block;
   width: 6%;
 }
+
 .received_msg {
   display: inline-block;
   padding: 0 0 0 10px;
   vertical-align: top;
   width: 92%;
  }
+
  .received_withd_msg p {
   background: #ebebeb none repeat scroll 0 0;
   border-radius: 3px;
@@ -336,6 +353,7 @@ form .form-icons {
   padding: 5px 10px 5px 12px;
   width: 100%;
 }
+
 .time_date {
   color: #747474;
   display: block;
@@ -343,6 +361,7 @@ form .form-icons {
   margin: 8px 0 0;
 }
 .received_withd_msg { width: 57%;}
+
 .mesgs {
   float: left;
   padding: 30px 15px 0 25px;
@@ -358,11 +377,13 @@ form .form-icons {
   padding: 5px 10px 5px 12px;
   width:100%;
 }
+
 .outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
 .sent_msg {
   float: right;
   width: 46%;
 }
+
 .input_msg_write input {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: medium none;
@@ -372,7 +393,9 @@ form .form-icons {
   width: 100%;
 }
 
+
 .type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+
 .msg_send_btn {
   background: #05728f none repeat scroll 0 0;
   border: medium none;
@@ -386,7 +409,9 @@ form .form-icons {
   top: 11px;
   width: 33px;
 }
+
 .messaging { padding: 0 0 50px 0;}
+
 .msg_history {
   height: 516px;
   overflow-y: auto;
