@@ -1,14 +1,16 @@
 module.exports = function(sequelize, DataTypes) {
     var Schedule = sequelize.define("Schedule", {
-      name: DataTypes.STRING,
-      workDate: DataTypes.DATETIME,
-      startHour: DataTypes.DATETIME,
-      endHour: DataTypes.DATETIME
+      //name: DataTypes.STRING,
+      manager: DataTypes.BOOLEAN,
+      employee: DataTypes.BOOLEAN,
+      workDate: DataTypes.DATE,
+      startHour: DataTypes.TIMESTAMP,
+      endHour: DataTypes.TIMESTAMP
         
     });
     
     Schedule.associate = function(models) {
-        Schedule.hasMany(models.Post, {
+        Schedule.hasMany(models.Clock, {
           onDelete: "cascade"
         });
       };
