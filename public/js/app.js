@@ -135,8 +135,8 @@ var user = firebase.auth().currentUser;
 
   $("#submitManager").on("click", e => {
     e.preventDefault();
-    const textEmail = $("#inputUserEmail").val();
-    const textPassword = $("#inputPassWord").val();
+    const textEmail = $("#inputUserEmail2").val();
+    const textPassword = $("#inputPassWord2").val();
     
       // console.log(textPassword);
     //  console.log(textEmail);
