@@ -416,3 +416,7 @@ form .form-icons {
   height: 516px;
   overflow-y: auto;
 }
+
+#calendarContainer{
+  margin: 0px;
+}
