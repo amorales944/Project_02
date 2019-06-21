@@ -1,11 +1,7 @@
 {
   "development": {
     "username": "root",
-<<<<<<< HEAD
-    "password": "root",
-=======
-    "password": "Cs343233!",
->>>>>>> 6839aca6ae0c893b49aeb205854708f501be094c
+    "password": "#Ladybird1987!",
     "database": "work_schedule",
     "host": "127.0.0.1",
     "dialect": "mysql"

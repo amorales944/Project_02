@@ -11,7 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Sign In</title>
+    <title>Sign Up</title>
   </head>
   <body class="signBody">
         
@@ -20,28 +20,35 @@
 
                 <form id=signForm>
                         <div class="form-icons">
-                          <h4 class="mt-4 text-white">Sign In</h4>
-
+                          <h4 class="mt-4 text-white">Create Manager Account</h4>
+                      
+                          <div class="input-group">
+                            <span class="input-group-label">
+                              <i class="fa fa-user"></i>
+                            </span>
+                            <input class="input-group-field" type="text" placeholder="Full name">
+                          </div>
                       
                           <div class="input-group">
                             <span class="input-group-label">
                               <i class="fa fa-envelope"></i>
                             </span>
-                            <input class="input-group-field" id="inputUserEmail" type="text" placeholder="Email">
+                            <input class="input-group-field" id="inputEmail1" type="text" placeholder="Email">
                           </div>
                       
                           <div class="input-group">
                             <span class="input-group-label">
                               <i class="fa fa-key"></i>
                             </span>
-                            <input class="input-group-field" id="inputPassWord" type="password" placeholder="Password" >
+                            <input class="input-group-field" id="exampleInputPassword1" type="password" placeholder="Password">
                           </div>
                         </div>
-                        <div id="warning2"></div>
-                      
-                        <button class="button expanded" id="submitBtn">Sign In</button>
 
-                        <p class="form-registration-member-signin text-center text-primary" id="signInLink">Not a member? <a class="text-white" id="signInIndex" href="./sign.html">Sign Up</a></p>
+                        <div id="warning"></div>
+                      
+                        <button class="button expanded" id="indexSignUp">Sign Up</button>
+
+                        <p class="form-registration-member-signin text-center text-primary" id="signInLink">Already a member? <a class="text-white" id="signUpIndex" href="/sign_in">Sign in</a></p>
                         <p class="form-registration-terms text-center text-primary"><a class="mr-1" href="https://app.termly.io/document/terms-of-use-for-website/f3a5b8fa-cc2a-4ec1-9625-41b892b437f4">Terms &amp; Conditions</a>|<a class="ml-1" href="#">Privacy</a></p>
                       </form>
 
@@ -53,12 +60,10 @@
         
           
       
-
-
-            <!-- firebase links -->
+        <!-- firebase links -->
           <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
           <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
-          
+
           <!-- jquery links-->
           <script
           src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -74,7 +79,5 @@
             <script src="/framework/js/vendor/jquery.js"></script>
             <script src="/framework/js/vendor/foundation.js"></script>
             <script src="/framework/js/vendor/what-input.js"></script>
-
-
 
   </body>
