@@ -1,10 +1,5 @@
-# Project_02
-
-# Project:  
-Name coming soon...
-
-# Live Site link: 
-[Project 2](https://serene-castle-45607.herokuapp.com/)
+# Project_02 - Live Site link: 
+[OnTime](https://pure-savannah-26750.herokuapp.com/)
 
 # Project Summary
 A site for employers and employees to login into to view, add and edit their work schedule. Employers will have the ability to approve shift changes, add or delete shifts and add or delete employees. Employees will also have the ability to clock in and out during the shift hours and keep track of their hours.
@@ -13,22 +8,22 @@ A site for employers and employees to login into to view, add and edit their wor
 Moises S. Eastland: Back-end Developer
 - [Github](https://github.com/MoisesEastalnd)
 - [LinkedIn](https://www.linkedin.com/in/moises-eastland-403b0a67/)
-- [Profile]()
+- [Profile](https://moiseseastalnd.github.io/bootstrap-portfolio-github.io/)
 
 Colton Porto: Front-end/Logic Developer  
 - [Github](https://github.com/csporto23)
 - [LinkedIn](https://www.linkedin.com/in/colton-porto-b4270a17b/)
-- [Profile]()
+- [Profile](https://csporto23.github.io/Bootstrap-Portfolio/)
 
 Armando D. Morales: Front-end Developer 
 - [Github](https://github.com/amorales944)
 - [LinkedIn](https://www.linkedin.com/in/armandodmorales/)
-- [Profile]()
+- [Profile](https://amorales944.github.io/portfolioNew.io/)
 
 Patrick Whynot: Back-end Developer 
 - [Github](https://github.com/pwhynot)
 - [LinkedIn](https://www.linkedin.com/in/patrick-whynot-a31334180/)
-- [Profile]()
+- [Profile](https://pwhynot.github.io/Patrick-Whynot-Portfolio/)
 
 
 # Techstack:
