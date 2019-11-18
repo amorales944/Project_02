@@ -1,5 +1,5 @@
 {
-  "name": "Project_02",
+  "name": "SportSight_app",
   "version": "1.0.0",
   "description": "# Project:   Name coming soon...",
   "main": "server.js",
@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amorales944/Project_02.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amorales944/Project_02/issues"
+    "url": "h"
   },
-  "homepage": "https://github.com/amorales944/Project_02#readme"
+  "homepage": ""
 }
